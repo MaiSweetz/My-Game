@@ -1,0 +1,140 @@
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:600px; } */
+    }
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.wall {
+    background-color: rgb(0, 0, 0);
+}
+
+.floor {
+    background-color: rgb(0, 0, 0);
+}
+
+.gun {
+    background-color: rgb(26, 27, 26);
+}
+
+body {
+    background-color: rgb(146, 196, 146);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.background {
+    background-color: rgb(47, 94, 47);
+}
+
+.body{
+    background-color: rgb(26, 27, 26);
+}
+
+.shadow{
+    background-color: rgb(32, 61, 32);
+}
+
+.eatman{
+    background-color: rgb(53, 61, 53);
+}
+
+.melon {
+    background-color:rgb(6, 168, 6);
+    border: 5px solid green;
+    box-sizing: border-box;
+}
+
+.orange {
+    background-color: rgb(248, 192, 87);
+    border: 5px solid orange;
+    box-sizing: border-box;
+}
+
+.strawberry {
+    background-color:rgb(252, 74, 67);
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+
+.scores {
+    background-color: none;
+    color: rgb(47, 94, 47);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 200px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    text-align: center;
+
+}
+
+.welcome {
+    color: rgb(26, 27, 26);
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 300%;
+    font-family: fantasy;
+    background-color: cadetblue;
+
+}
+
+.instructions {
+    position: absolute;
+    margin-left: 600px;
+    width: 100%;
+    margin-top: 100px;
+    font-size: 300%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.instructions2 {
+    position: absolute;
+    margin-left: 600px;
+    width: 100%;
+    margin-top: 180px;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+}
+
+.buttonleft{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 700px;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://cdn2.iconfinder.com/data/icons/symbols-signs-3/19/40-512.png);
+    background-size: 200px 200px;
+    border-radius: 200px;
+    outline: none;
+}
+
+
+.buttonright{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 1000px;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://cdn2.iconfinder.com/data/icons/symbols-signs-3/19/38-512.png);
+    background-size: 200px 200px;
+    border-radius: 200px;
+    outline: none;
+}
+
